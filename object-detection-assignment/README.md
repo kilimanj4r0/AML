@@ -21,6 +21,8 @@ I annotated the images on roboflow and got 3 classes: graduated flask, liquid le
 
 3. Train a Faster RCNN model using detectron2
 
+I used the following [Faster RCNN model](https://github.com/facebookresearch/detectron2/blob/main/configs/COCO-Detection/faster_rcnn_X_101_32x8d_FPN_3x.yaml).
+
 - [Colab](https://colab.research.google.com/drive/1dyoVrx95-QVLKojj6DsNda2vaG_KigKx?usp=sharing)
 - [File](./FasterRCNN.ipynb)
 
