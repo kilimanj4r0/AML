@@ -39,5 +39,5 @@ I evaluated the models based on mAP and speed and size. The results are in the f
 
 | Model | mAP | Training Speed | Inference Speed | Size |
 | --- | --- | --- | --- | --- |
-| Mask RCNN |  |  |  |  |
+| Mask RCNN | 0.947 | 9998 iterations in 1:32:51 | Total inference time: 0:00:01.939116 (0.107729 s / iter per device, on 1 devices) | 334.88MB |
 | YOLOv8n | 0.98 | 25 epochs completed in 00:07:22 | Speed: 0.4ms pre-process, 7.8ms inference, 5.2ms postprocess per image | 5.94MB |
