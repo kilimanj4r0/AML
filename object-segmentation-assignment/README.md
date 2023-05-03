@@ -21,16 +21,16 @@ I annotated the images on roboflow and got 3 classes: graduated flask, liquid le
 
 3. Train a Mask RCNN model using detectron2
 
-I used the following [Mask RCNN model]().
+I used the following [Mask RCNN model](https://github.com/facebookresearch/detectron2/blob/main/configs/COCO-InstanceSegmentation/mask_rcnn_R_50_FPN_3x.yaml).
 
-- [Colab]()
+- [Colab](https://colab.research.google.com/drive/1FMGGGbrX9vSN6FeeJb2vvvKtpBsqYRSL?usp=sharing)
 - [File](./MaskRCNN.ipynb)
 
 4. Train YOLOv8 the smallest size for segmentation
 
 I trained the YOLOv8 nano.
 
-- [Colab]()
+- [Colab](https://colab.research.google.com/drive/1WUAGG-TMznCKOcnaj5PbK1nq14IRogNN?usp=sharing)
 - [File](./YOLOv8n.ipynb)
 
 5. Evaluate both models based on mAP and speed and size.
@@ -39,5 +39,5 @@ I evaluated the models based on mAP and speed and size. The results are in the f
 
 | Model | mAP | Training Speed | Inference Speed | Size |
 | --- | --- | --- | --- | --- |
-| YOLOv8n |  |  |  |  |
 | Mask RCNN |  |  |  |  |
+| YOLOv8n | 0.98 | 25 epochs completed in 00:07:22 | Speed: 0.4ms pre-process, 7.8ms inference, 5.2ms postprocess per image | 5.94MB |
